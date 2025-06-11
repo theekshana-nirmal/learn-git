@@ -82,3 +82,73 @@ Work on features or fixes without affecting the main codebase.
   ```
 
 ---
+
+## 🤝 Collaboration
+Push, pull, and collaborate with remote repositories.
+
+- **Add a Remote Repository**:
+  ```bash
+  git remote add origin <repository-url>
+  ```
+- **Push Changes**:
+  ```bash
+  git push origin <branch-name>
+  ```
+- **Pull Changes**:
+  ```bash
+  git pull origin <branch-name>
+  ```
+- **Fetch Changes**:
+  ```bash
+  git fetch origin
+  ```
+
+---
+
+## 🔄 Undoing Changes
+Fix mistakes or revert unwanted changes.
+
+- **Unstage Files**:
+  ```bash
+  git restore --staged <file>
+  ```
+- **Discard Changes**:
+  ```bash
+  git restore <file>
+  ```
+- **Amend Last Commit**:
+  ```bash
+  git commit --amend
+  ```
+- **Revert a Commit**:
+  ```bash
+  git revert <commit-hash>
+  ```
+- **Reset to Previous State**:
+  ```bash
+  git reset --hard <commit-hash>
+  ```
+
+---
+
+## 📦 Stashing
+Temporarily save changes without committing.
+
+- **Stash Changes**:
+  ```bash
+  git stash
+  ```
+- **List Stashes**:
+  ```bash
+  git stash list
+  ```
+- **Apply a Stash**:
+  ```bash
+  git stash apply
+  ```
+- **Drop a Stash**:
+  ```bash
+  git stash drop
+  ```
+
+---
